@@ -1,0 +1,12 @@
+print("How old are you?", end = " ")
+age = input()
+print("How tall are you?", end = " ")
+height = input()
+print("How much do you weigh?", end =" ")
+weight = input()
+print("Do you have a pet? if you do what's it's name?", end =" ")
+pet = input()
+print("What is your hobby?")
+hobbies = input()
+
+print("So you're %r old, %r tall and %r heavy, your pets name is %r and your hobby is %r." % (age, height, weight, pet, hobbies))
